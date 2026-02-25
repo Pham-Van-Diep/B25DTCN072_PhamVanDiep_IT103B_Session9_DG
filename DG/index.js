@@ -19,10 +19,11 @@ const money = () => {
 money();
 
 const netProfits = () => {
-  const profit = revenues.map((revenues) => {
-    return revenues * 0.9;
+  const profit = revenues.map((num) => {
+    return num * 0.9;
   });
   console.log(profit);
 };
 
 netProfits();
+
